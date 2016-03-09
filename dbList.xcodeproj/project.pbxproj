@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC9A262C1C8D91D100365BFA /* CityDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9A262B1C8D91D100365BFA /* CityDAO.m */; };
 		EC9F214F1C564D910012D730 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9F214E1C564D910012D730 /* main.m */; };
 		EC9F21521C564D910012D730 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9F21511C564D910012D730 /* AppDelegate.m */; };
 		EC9F21551C564D910012D730 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9F21541C564D910012D730 /* ViewController.m */; };
@@ -14,9 +15,17 @@
 		EC9F215B1C564D910012D730 /* dbList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC9F21591C564D910012D730 /* dbList.xcdatamodeld */; };
 		EC9F215D1C564D910012D730 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC9F215C1C564D910012D730 /* Assets.xcassets */; };
 		EC9F21601C564D910012D730 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC9F215E1C564D910012D730 /* LaunchScreen.storyboard */; };
+		EC9F216C1C56600F0012D730 /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9F216B1C56600F0012D730 /* City.m */; };
+		EC9F216F1C566A790012D730 /* CityTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9F216E1C566A790012D730 /* CityTableViewController.m */; };
+		EC9F21721C5676960012D730 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9F21711C5676960012D730 /* DetailViewController.m */; };
+		EC9F93021C901D6C0090E3AD /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9F93011C901D6C0090E3AD /* Person.m */; };
+		EC9F93051C901E640090E3AD /* PersonDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9F93041C901E640090E3AD /* PersonDAO.m */; };
+		EC9F930B1C9052520090E3AD /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC9F930D1C9052520090E3AD /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC9A262A1C8D91D100365BFA /* CityDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityDAO.h; sourceTree = "<group>"; };
+		EC9A262B1C8D91D100365BFA /* CityDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityDAO.m; sourceTree = "<group>"; };
 		EC9F214A1C564D910012D730 /* dbList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dbList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC9F214E1C564D910012D730 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EC9F21501C564D910012D730 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -28,6 +37,21 @@
 		EC9F215C1C564D910012D730 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC9F215F1C564D910012D730 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC9F21611C564D910012D730 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC9F216A1C56600F0012D730 /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
+		EC9F216B1C56600F0012D730 /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
+		EC9F216D1C566A790012D730 /* CityTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityTableViewController.h; sourceTree = "<group>"; };
+		EC9F216E1C566A790012D730 /* CityTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityTableViewController.m; sourceTree = "<group>"; };
+		EC9F21701C5676960012D730 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		EC9F21711C5676960012D730 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		EC9F93001C901D6C0090E3AD /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		EC9F93011C901D6C0090E3AD /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		EC9F93031C901E640090E3AD /* PersonDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonDAO.h; sourceTree = "<group>"; };
+		EC9F93041C901E640090E3AD /* PersonDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonDAO.m; sourceTree = "<group>"; };
+		EC9F93071C9051FB0090E3AD /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		EC9F93081C9051FB0090E3AD /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		EC9F930C1C9052520090E3AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EC9F930E1C9052670090E3AD /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EC9F93101C9056E00090E3AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +65,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EC9A26291C8D916800365BFA /* data */ = {
+			isa = PBXGroup;
+			children = (
+				EC9A262A1C8D91D100365BFA /* CityDAO.h */,
+				EC9A262B1C8D91D100365BFA /* CityDAO.m */,
+				EC9F93031C901E640090E3AD /* PersonDAO.h */,
+				EC9F93041C901E640090E3AD /* PersonDAO.m */,
+			);
+			name = data;
+			sourceTree = "<group>";
+		};
 		EC9F21411C564D910012D730 = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +95,8 @@
 		EC9F214C1C564D910012D730 /* dbList */ = {
 			isa = PBXGroup;
 			children = (
+				EC9F93061C9051970090E3AD /* resource */,
+				EC9A26291C8D916800365BFA /* data */,
 				EC9F21501C564D910012D730 /* AppDelegate.h */,
 				EC9F21511C564D910012D730 /* AppDelegate.m */,
 				EC9F21531C564D910012D730 /* ViewController.h */,
@@ -70,6 +107,14 @@
 				EC9F21611C564D910012D730 /* Info.plist */,
 				EC9F21591C564D910012D730 /* dbList.xcdatamodeld */,
 				EC9F214D1C564D910012D730 /* Supporting Files */,
+				EC9F216A1C56600F0012D730 /* City.h */,
+				EC9F216B1C56600F0012D730 /* City.m */,
+				EC9F216D1C566A790012D730 /* CityTableViewController.h */,
+				EC9F216E1C566A790012D730 /* CityTableViewController.m */,
+				EC9F21701C5676960012D730 /* DetailViewController.h */,
+				EC9F21711C5676960012D730 /* DetailViewController.m */,
+				EC9F93001C901D6C0090E3AD /* Person.h */,
+				EC9F93011C901D6C0090E3AD /* Person.m */,
 			);
 			path = dbList;
 			sourceTree = "<group>";
@@ -80,6 +125,14 @@
 				EC9F214E1C564D910012D730 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC9F93061C9051970090E3AD /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				EC9F930D1C9052520090E3AD /* Localizable.strings */,
+			);
+			name = resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +176,7 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
 			);
 			mainGroup = EC9F21411C564D910012D730;
 			productRefGroup = EC9F214B1C564D910012D730 /* Products */;
@@ -140,6 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC9F21601C564D910012D730 /* LaunchScreen.storyboard in Resources */,
+				EC9F930B1C9052520090E3AD /* Localizable.strings in Resources */,
 				EC9F215D1C564D910012D730 /* Assets.xcassets in Resources */,
 				EC9F21581C564D910012D730 /* Main.storyboard in Resources */,
 			);
@@ -152,10 +207,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC9F216F1C566A790012D730 /* CityTableViewController.m in Sources */,
+				EC9A262C1C8D91D100365BFA /* CityDAO.m in Sources */,
 				EC9F21551C564D910012D730 /* ViewController.m in Sources */,
+				EC9F216C1C56600F0012D730 /* City.m in Sources */,
 				EC9F215B1C564D910012D730 /* dbList.xcdatamodeld in Sources */,
 				EC9F21521C564D910012D730 /* AppDelegate.m in Sources */,
+				EC9F93021C901D6C0090E3AD /* Person.m in Sources */,
 				EC9F214F1C564D910012D730 /* main.m in Sources */,
+				EC9F21721C5676960012D730 /* DetailViewController.m in Sources */,
+				EC9F93051C901E640090E3AD /* PersonDAO.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +227,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				EC9F21571C564D910012D730 /* Base */,
+				EC9F93071C9051FB0090E3AD /* fr */,
+				EC9F93101C9056E00090E3AD /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -174,8 +237,19 @@
 			isa = PBXVariantGroup;
 			children = (
 				EC9F215F1C564D910012D730 /* Base */,
+				EC9F93081C9051FB0090E3AD /* fr */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EC9F930D1C9052520090E3AD /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC9F930C1C9052520090E3AD /* en */,
+				EC9F930E1C9052670090E3AD /* fr */,
+			);
+			name = Localizable.strings;
+			path = resource;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -302,6 +376,7 @@
 				EC9F21661C564D910012D730 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

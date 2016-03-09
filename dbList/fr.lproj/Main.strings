@@ -1,0 +1,24 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "5MJ-hH-dbl"; */
+"5MJ-hH-dbl.text" = "Label";
+
+/* Class = "UILabel"; text = "VILLE"; ObjectID = "610-zc-MxT"; */
+"610-zc-MxT.text" = "VILLE";
+
+/* Class = "UIButton"; normalTitle = "Add"; ObjectID = "BSE-Ii-BqC"; */
+"BSE-Ii-BqC.normalTitle" = "Ajouter";
+
+/* Class = "UITextField"; placeholder = "postal code"; ObjectID = "cLC-Hc-MIr"; */
+"cLC-Hc-MIr.placeholder" = "postal code";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "hzn-Ns-j2q"; */
+"hzn-Ns-j2q.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "pkI-Wj-eAf"; */
+"pkI-Wj-eAf.placeholder" = "Name";
+
+/* Class = "UITextField"; placeholder = "Number of habitants"; ObjectID = "rSh-MQ-AXA"; */
+"rSh-MQ-AXA.placeholder" = "Number of habitants";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "zmD-YV-kLO"; */
+"zmD-YV-kLO.text" = "Label";

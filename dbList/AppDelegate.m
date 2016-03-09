@@ -17,6 +17,38 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    //Creation de la base de données
+    //NSManagedObjectContext *context = [self managedObjectContext];
+    
+//    //Appel de la table
+//    NSManagedObject *city = [NSEntityDescription insertNewObjectForEntityForName:@"City" inManagedObjectContext:context];
+//    
+//    //Insertion des champs
+//    [city setValue:@"Paris" forKey:@"name"];
+//    [city setValue:@"75000" forKey:@"postalCode"];
+//    [city setValue:[NSNumber numberWithInt:2000000] forKey:@"nbHab"];
+//    
+//    NSManagedObject *city2 = [NSEntityDescription insertNewObjectForEntityForName:@"City" inManagedObjectContext:context];
+//    [city2 setValue:@"London" forKey:@"name"];
+//    [city2 setValue:@"NA" forKey:@"postalCode"];
+//    [city2 setValue:[NSNumber numberWithInt:30000000] forKey:@"nbHab"];
+//
+//    
+//    //request get db
+//    NSFetchRequest *frequest = [NSFetchRequest new];
+//    
+//    //get table for request
+//    frequest.entity = [NSEntityDescription entityForName:@"City" inManagedObjectContext:context];
+//    
+//    // retourne des enregistrements de type fetchObjects que l'on va manipuler par la suite.
+//    NSArray *fobjects = [context executeFetchRequest:frequest error:nil];
+//    
+//    //Display valeur
+//    for (NSManagedObject *cityfetch in fobjects) {
+//        NSLog(@"name: %@", [cityfetch valueForKey:@"name"]);
+//    }
+//    
+    
     return YES;
 }
 

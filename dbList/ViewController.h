@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextField *TFname;
+@property (weak, nonatomic) IBOutlet UITextField *TFpostalcode;
+@property (weak, nonatomic) IBOutlet UITextField *TFnbhab;
+@property (weak, nonatomic) IBOutlet UIButton *BTadd;
 
 @end
 
